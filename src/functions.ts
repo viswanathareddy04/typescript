@@ -1,8 +1,8 @@
-function add(n1: number, n2: number): number {
+function add1(n1: number, n2: number): number {
   return n1 + n2;
 }
 // Like kind of assigning function to Function
-let aliasFunction: Function = add;
+let aliasFunction: Function = add1;
 
 // Kind of Lambda Functions in Typescript
 let anotherLambdaFunction = (n1: number) => console.log(n1);
